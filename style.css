@@ -1,24 +1,29 @@
 * {
     box-sizing: border-box;
-    color: white;
+    color: #dce6f0;
 }
 
 body {
     margin: 0;
-    font-family: 'courier new', serif;
     background-image: url(billeder/forside.jpg);
+    background-size: cover
 }
-
 
 img {
     width: 100%
 }
 
-forside {
+#om {
     display: flex;
-    background-image: url(billeder/forside.jpg);
+    background-color: black;
+    background-size: cover
 }
 
+#portfolio {
+    display: flex;
+    background-color: black;
+    background-size: cover
+}
 
 * {
     margin: 0px;
@@ -26,8 +31,18 @@ forside {
     font-family: sans-serif;
 }
 
+header nav a {
+    font-family: 'Fredericka the Great', sans-serif;
+}
+
 h1 {
     text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 a {
@@ -48,19 +63,22 @@ a {
 #sidebar.active {
     left: 0px;
     top: 0;
+
 }
 
 #sidebar ul li {
-    color: White;
+    color: #dce6f0;
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+
 }
 
 #sidebar .toggle-btn {
     position: absolute;
     right: -40px;
     top: 20px;
+
 }
 
 #sidebar .toggle-btn span {
@@ -69,19 +87,12 @@ a {
     height: 5px;
     background: #dce6f0;
     margin: 5px 0px;
+
 }
 
 p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1rem;
-}
-
-@font-face {
-    font-family: 'frederickathegreat-regular-webfont';
-    src: url('fonts/frederickathegreat-regular-webfont.woff2') format('woff2'),
-        url('fonts/frederickathegreat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: regular;
 }
 
 #sectionwrapper {
@@ -112,7 +123,37 @@ p {
 }
 
 .link {
-    border: 2px solid white;
+    border: 1px solid #dce6f0;
+    padding: 2.5px;
+}
+
+.section2 {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 2px solid #dce6f0;
+    padding: 5px;
+}
+
+.section3 {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 2px solid #dce6f0;
+    padding: 5px;
+}
+
+.section4 {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 2px solid #dce6f0;
     padding: 5px;
 }
 
